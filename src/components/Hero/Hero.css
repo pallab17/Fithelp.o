@@ -67,3 +67,7 @@
     letter-spacing: 1px;
     width: 80%;
 }
+.figures{
+    display: flex;
+    gap: 2rem;
+}
