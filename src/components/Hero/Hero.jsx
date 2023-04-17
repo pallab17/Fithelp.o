@@ -36,7 +36,6 @@ const Hero = () => {
         {/* figures section ta  */}
         <div className="figures">
           <div>
-            
             <span>+ 140</span>
             <span>Expert Coaches</span>
           </div>
@@ -55,29 +54,28 @@ const Hero = () => {
           <button className="btn">Get Started</button>
           <button className="btn">Learn More</button>
         </div>
-
-
       </div>
 
       <div className="right-h">
-       <button className="btn">Join Now</button>
+        <button className="btn">Join Now</button>
 
-       <div className="heart-rate">
-        <img src={Heart} alt="" />
-        <span>heart rate</span>
-        <span>116 bpm</span>
-       </div>
+        <div className="heart-rate">
+          <img src={Heart} alt="" />
+          <span>heart rate</span>
+          <span>116 bpm</span>
+        </div>
 
+        {/* hero isstyle image */}
+        <img src={hero_image} className="hero-image" alt="" />
+        <img src={hero_image_back} className="hero-image-back" alt="" />
 
-
-       {/* hero isstyle image */}
-       <img src={hero_image} className="hero-image" alt="" />
-       <img src={hero_image_back} className="hero-image-back" alt="" />
-
-
-
-
-       </div>
+        {/* calories pic ta  */}
+        <div className="calories">
+          <img src={Calories} alt="" />
+          <span>Calories Burned</span>
+          <span>520 Kcal</span>
+        </div>
+      </div>
     </div>
   );
 };

@@ -143,4 +143,10 @@
     width: 23rem;
 
 }
-
+.hero-image-back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
