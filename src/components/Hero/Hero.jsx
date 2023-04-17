@@ -21,6 +21,9 @@ const Hero = () => {
           <div>
           <span>Ideal Body</span>
           </div>
+          <div>
+          <span>hey we will help you to shape and build your ideal body and live  your life to the fullest</span>
+          </div>
         </div>
       </div>
 
