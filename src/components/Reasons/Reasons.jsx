@@ -43,6 +43,15 @@ const Reasons = () => {
             <span>RELIABLE PARTNERS</span>
           </div>
         </div>
+
+        <span
+          style={{
+            color: "var(--gray)",
+            fontWeight: "normal",
+          }}
+        >
+          OUR PARTNERS
+        </span>
       </div>
     </div>
   );
