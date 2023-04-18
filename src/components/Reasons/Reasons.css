@@ -1,0 +1,23 @@
+.Reasons{
+    padding: 0 2rem;
+    display: flex;
+    grid-template: 2rem;
+}
+.left-r{
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr);
+    this tells to create 3 frames of same size
+    */
+    gap: 1rem;
+    grid-auto-rows: 1fr;
+    /* grid-auto-rows: 1fr; will make the height of each row equal  */
+
+
+
+}
+
+.right-r{
+    flex: 1 1;
+}
