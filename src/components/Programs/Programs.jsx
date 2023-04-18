@@ -9,7 +9,7 @@ const Programs = () => {
         <span> Programs</span>
         <span> To Shape Yourself</span>
       </div>
-      <div>yo</div>
+      
     </div>
   );
 };
