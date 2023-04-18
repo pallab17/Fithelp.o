@@ -24,6 +24,25 @@ const Reasons = () => {
           <span className="outline-text"> why</span>
           <span> choose us</span>
         </div>
+
+        <div className="details-r">
+          <div>
+            <img src={tick} alt=""></img>
+            <span></span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span></span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span></span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span></span>
+          </div>
+        </div>
       </div>
     </div>
   );

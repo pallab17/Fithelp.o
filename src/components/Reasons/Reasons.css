@@ -42,6 +42,7 @@
     width: 10rem;
     grid-row: 2;
     grid-column: 3/4;
+    height: 11.4rem;
     
 }
 
@@ -49,4 +50,17 @@
 
 .right-r{
     flex: 1 1;
+    text-transform: uppercase;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.right-r>span{
+    font-weight: bold;
+    color: var(--orange);
+}
+.right-r>div{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
 }
