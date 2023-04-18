@@ -74,3 +74,7 @@
     font-size: 1rem;
     gap: 1rem;
 }
+.details-r>div>img{
+    height: 2rem;
+    width: 2rem;
+}
