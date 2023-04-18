@@ -23,7 +23,7 @@ const Hero = () => {
             <span>Your</span>
           </div>
           <div>
-            <span>Ideal Body</span>
+            <span>Dream Body</span>
           </div>
           <div>
             <span>
