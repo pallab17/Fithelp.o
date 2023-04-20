@@ -6,7 +6,7 @@ const Testimonials = () => {
     <div className="Testimonials">
       <div className="left-t">
         <span>TESTIMONIALS</span>
-        <span>WHAT THEY</span>
+        <span className="outline-text">WHAT THEY</span>
         <span>SAY ABOUT US</span>
       </div>
       <div className="right-t"></div>
