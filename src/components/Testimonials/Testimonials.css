@@ -68,6 +68,10 @@ font-weight: bold;
     bottom: 1rem;
     left: 3rem;
 }
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
 
 
 
