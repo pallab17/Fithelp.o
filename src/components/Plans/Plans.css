@@ -22,3 +22,7 @@
     width: 15rem;
     
 }
+.plan:nth-child(2){
+    background: var(--planCard);
+    transform: scale(1.1);
+}
