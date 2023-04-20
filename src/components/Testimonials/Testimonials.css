@@ -40,5 +40,14 @@ font-weight: bold;
     right: 8rem;
     top: 2rem;
 }
-
+.right-t>:nth-child(1){
+    position: absolute;
+    height: 20rem;
+    width: 17rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+    
+}
 
