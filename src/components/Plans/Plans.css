@@ -41,3 +41,7 @@
     font-size: 3rem;
     font-weight: bold;
 }
+.plan>:nth-child(5){
+    font-size: 0.8rem;
+    
+}
