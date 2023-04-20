@@ -48,6 +48,18 @@ font-weight: bold;
     background-color: transparent;
     right: 9rem;
     top: 0.9rem;
-    
+
 }
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    right: 7rem;
+    top: 4rem;
+    background: var(--planCard);
+
+
+}
+
+
 
