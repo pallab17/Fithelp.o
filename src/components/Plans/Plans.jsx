@@ -23,18 +23,18 @@ const Plans = () => {
             <span>$ {goru.price} </span>
 
             <div className="features">
-                {goru.features.map((feature,i)=> (
-                    <div className="feature">
-                    <img src={whiteTick} alt="" />
-                    <span key={i} >{feature}</span>
-                    
-
-                    </div>
-                ))}
+              {goru.features.map((feature, i) => (
+                <div className="feature">
+                  <img src={whiteTick} alt="" />
+                  <span key={i}>{feature}</span>
+                </div>
+              ))}
             </div>
 
-
-
+            <div>
+              <span>See More Benefits -> </span>
+              <button className="btn">Join Now</button>
+            </div>
           </div>
         ))}
       </div>
