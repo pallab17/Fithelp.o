@@ -6,7 +6,7 @@ import rightArrow from "../../assets/rightArrow.png";
 
 const Testimonials = () => {
   const [selected, setSelected] = useState(0);
-  const tlengtyh = testimonialsData.length;
+  const tlength = testimonialsData.length;
 
   return (
     <div className="Testimonials">
@@ -23,13 +23,29 @@ const Testimonials = () => {
         </span>
       </div>
       <div className="right-t">
-      <div></div>
-      <div></div>
+        <div></div>
+        <div></div>
         <img src={testimonialsData[selected].image} alt="" />
 
         <div className="arrows">
-          <img src={leftArrow} alt="" />
-          <img src={rightArrow} alt="" />
+          <img
+            onClick={() => {
+              selected === 0
+                ? setSelected(tlength - 1)
+                : setSelected((prev) => prev - 1);
+                
+            }}
+            src={leftArrow}
+            alt=""
+          />
+          <img
+           onClick={() => {
+              selected === tlength-1
+                ? setSelected(0)
+                : setSelected((prev) => prev + 1);
+            }}
+          
+           src={rightArrow} alt="" />
         </div>
       </div>
     </div>
