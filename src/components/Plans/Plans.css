@@ -25,4 +25,11 @@
 .plan:nth-child(2){
     background: var(--planCard);
     transform: scale(1.1);
+    /* transform scale normal size r theke size bariye deye */
+}
+
+.plan>svg{
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
 }
