@@ -11,3 +11,7 @@
     text-transform: uppercase;
     color: white;
 }
+.left-t>:nth-child(1){
+color: var(--orange);
+font-weight: bold;
+}
