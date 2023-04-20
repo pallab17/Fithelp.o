@@ -22,6 +22,7 @@
     width: 15rem;
     
 }
+/* targetting the 2nd div */
 .plan:nth-child(2){
     background: var(--planCard);
     transform: scale(1.1);
@@ -64,4 +65,7 @@
 
 .plans>:nth-child(2)>svg{
     fill: white;
+}
+.plans>:nth-child(2)>button{
+    color: var(--orange);
 }
