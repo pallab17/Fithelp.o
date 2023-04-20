@@ -56,5 +56,12 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    
+
+}
+.feature>img{
+    width: 1rem;
+}
+
+.plans>:nth-child(2)>svg{
+    fill: white;
 }
