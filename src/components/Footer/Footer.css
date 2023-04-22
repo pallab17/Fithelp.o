@@ -12,6 +12,10 @@
     align-items: center;
     justify-content: center;
     height: 20rem;
-    
 
+
+}
+.social-links{
+    display: flex;
+    gap: 4rem;
 }
