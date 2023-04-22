@@ -6,6 +6,11 @@ import whiteTick from "../../assets/whiteTick.png";
 const Plans = () => {
   return (
     <div className="plans-container">
+
+    <div className="blur plans-blur-1"></div>
+    <div className="blur plans-blur-2"></div>
+
+
       {/* plans r header file */}
       <div className="programs-header" style={{ gap: "2rem" }}>
         <span className="outline-text">READY TO START</span>
