@@ -50,4 +50,8 @@
     color: var(--lightgray);
 
 }
+.btn-j{
+    background-color: var(--orange);
+    color: white;
+}
 
